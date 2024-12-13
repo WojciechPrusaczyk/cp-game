@@ -47,10 +47,6 @@
                             <engine:Label text="Marksman" name="Label" class="UpgradesInputsLabels" style="-unity-text-outline-color: rgba(0, 0, 0, 0);" />
                             <engine:Button text="2" name="UnitButton" class="UpgradesInputsButtons UnitButton" style="background-image: url(&quot;project://database/Assets/Art/UI/thrower_miniatur.png?fileID=-73316006775929340&amp;guid=0dd34ecf64e734744be4822824afb35e&amp;type=3#thrower_miniatur_0&quot;); background-color: rgba(188, 188, 188, 0); color: rgba(27, 27, 27, 0);" />
                         </engine:VisualElement>
-                        <engine:VisualElement name="Input" class="UpgradesInputs" style="flex-grow: 1; align-items: center; flex-direction: column; height: 200px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; justify-content: center; width: 50%;">
-                            <engine:Label text="Tank" name="Label" class="UpgradesInputsLabels" />
-                            <engine:Button text="3" name="UnitButton" class="UpgradesInputsButtons UnitButton" style="background-image: url(&quot;project://database/Assets/Art/UI/dino_rider_miniature.png?fileID=6949999542048556185&amp;guid=a217b409f7838e54fa54d83be078e8cd&amp;type=3#dino_rider_miniature_0&quot;); background-color: rgba(188, 188, 188, 0); -unity-text-outline-color: rgba(0, 0, 0, 0); color: rgba(27, 27, 27, 0);" />
-                        </engine:VisualElement>
                     </engine:VisualElement>
                 </engine:VisualElement>
             </engine:VisualElement>

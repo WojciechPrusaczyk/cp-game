@@ -142,7 +142,7 @@ public class Unit : MonoBehaviour
         // unit attacks using a timer set to state.attackSpeed
         while (true)
         {
-            audioManager.SetEffectsClip(attackEffectSoundIndex);
+            // audioManager.SetEffectsClip(attackEffectSoundIndex);
             
             unitAnimator.SetBool("isAttacking", true);
             
