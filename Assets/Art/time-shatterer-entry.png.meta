@@ -1,0 +1,389 @@
+fileFormatVersion: 2
+guid: 7e08ca82768459146b2e3ed192dae9aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9114849712538512269
+    second: time-shatterer-entry_0
+  - first:
+      213: -4207817851419472152
+    second: time-shatterer-entry_1
+  - first:
+      213: -6386938705363240637
+    second: time-shatterer-entry_2
+  - first:
+      213: 514948256628003215
+    second: time-shatterer-entry_3
+  - first:
+      213: -8625336233426380075
+    second: time-shatterer-entry_4
+  - first:
+      213: 1538651072050346634
+    second: time-shatterer-entry_5
+  - first:
+      213: -8149755187511210323
+    second: time-shatterer-entry_6
+  - first:
+      213: -3392424189805810956
+    second: time-shatterer-entry_7
+  - first:
+      213: -8433370182516151168
+    second: time-shatterer-entry_8
+  - first:
+      213: -6436754184985864272
+    second: time-shatterer-entry_9
+  - first:
+      213: -4559103978473857222
+    second: time-shatterer-entry_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: time-shatterer-entry_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bede065837e7e70800000000000000
+      internalID: 9114849712538512269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-shatterer-entry_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 47
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee489645f3da95c0800000000000000
+      internalID: -4207817851419472152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-shatterer-entry_2
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 47
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34971a046190d57a0800000000000000
+      internalID: -6386938705363240637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-shatterer-entry_3
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 47
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81d40a06b6752700800000000000000
+      internalID: 514948256628003215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-shatterer-entry_4
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 47
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da905a0566ac4880800000000000000
+      internalID: -8625336233426380075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-shatterer-entry_5
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 47
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ab5d67ff26a5510800000000000000
+      internalID: 1538651072050346634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-shatterer-entry_6
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 47
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae4ff116d046ee80800000000000000
+      internalID: -8149755187511210323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-shatterer-entry_7
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 47
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4faae275c20bbe0d0800000000000000
+      internalID: -3392424189805810956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-shatterer-entry_8
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 47
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ce0cb3086a6fa80800000000000000
+      internalID: -8433370182516151168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-shatterer-entry_9
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 47
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b798611c2e0ca6a0800000000000000
+      internalID: -6436754184985864272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-shatterer-entry_10
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 47
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fdef4361fcab0c0800000000000000
+      internalID: -4559103978473857222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      time-shatterer-entry_0: 9114849712538512269
+      time-shatterer-entry_1: -4207817851419472152
+      time-shatterer-entry_10: -4559103978473857222
+      time-shatterer-entry_2: -6386938705363240637
+      time-shatterer-entry_3: 514948256628003215
+      time-shatterer-entry_4: -8625336233426380075
+      time-shatterer-entry_5: 1538651072050346634
+      time-shatterer-entry_6: -8149755187511210323
+      time-shatterer-entry_7: -3392424189805810956
+      time-shatterer-entry_8: -8433370182516151168
+      time-shatterer-entry_9: -6436754184985864272
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

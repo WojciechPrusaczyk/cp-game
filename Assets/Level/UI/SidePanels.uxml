@@ -1,0 +1,65 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Level/UI/SidePanels.uss?fileID=7433441132597879392&amp;guid=a331fc8383f95964e831d39a5e575931&amp;type=3#SidePanels" />
+    <engine:VisualElement name="View" style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+        <engine:VisualElement name="SideMenus" style="flex-grow: 1; flex-direction: row;">
+            <engine:VisualElement name="Upgrades" style="flex-grow: 1; width: 50%; align-items: flex-start; display: flex; visibility: hidden;">
+                <engine:VisualElement name="Root" style="flex-grow: 1; width: 50%; background-color: rgba(0, 0, 0, 0.64); align-items: flex-end;">
+                    <engine:VisualElement name="Input" class="UpgradesInputs" style="flex-grow: 1; align-items: auto; flex-direction: column; height: 200px;">
+                        <engine:Label text="Label" name="Label" class="UpgradesInputsLabels" />
+                        <engine:Button text="1" name="UpgradeButton" class="UpgradesInputsButtons UpgradeButton" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="Input" class="UpgradesInputs" style="flex-grow: 1; align-items: auto; flex-direction: column; height: 200px;">
+                        <engine:Label text="Label" class="UpgradesInputsLabels" />
+                        <engine:Button text="2" name="UpgradeButton" class="UpgradesInputsButtons UpgradeButton" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="Input" class="UpgradesInputs" style="flex-grow: 1; align-items: auto; flex-direction: column; height: 200px;">
+                        <engine:Label text="Label" class="UpgradesInputsLabels" />
+                        <engine:Button text="3" name="UpgradeButton" class="UpgradesInputsButtons UpgradeButton" />
+                    </engine:VisualElement>
+                    <engine:VisualElement name="Input" class="UpgradesInputs" style="flex-grow: 1; align-items: auto; flex-direction: column; height: 200px;">
+                        <engine:Label text="Label" class="UpgradesInputsLabels" />
+                        <engine:Button text="4" name="UpgradeButton" enable-rich-text="true" class="UpgradesInputsButtons UpgradeButton" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="Units" style="flex-grow: 1; width: 50%; align-items: auto; -unity-background-image-tint-color: rgba(255, 255, 255, 0.76);">
+                <engine:VisualElement name="Root" style="flex-grow: 1; width: 50%; background-color: rgba(0, 0, 0, 0.64); align-items: flex-start;">
+                    <engine:VisualElement name="VisualElement" style="flex-grow: 1; width: 100%;">
+                        <engine:Label text="Wybierz linie:" style="font-size: 30px; color: rgb(255, 255, 255); -unity-text-align: upper-center; padding-top: 50px;" />
+                        <engine:VisualElement name="ChooseLine" style="flex-grow: 1; flex-direction: row;">
+                            <engine:VisualElement name="One" style="flex-grow: 1; width: 33%; align-items: center; align-self: center;">
+                                <engine:Button text="0" name="LineButton" focusable="false" class="LineButton" style="width: 125px; height: 125px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; background-image: url(&quot;project://database/Assets/Art/UI/1st_lane1.png?fileID=45117343513077611&amp;guid=022f2f57a039b1649b2c3f0f61be08b4&amp;type=3#1st_lane1_0&quot;);" />
+                            </engine:VisualElement>
+                            <engine:VisualElement name="Two" style="flex-grow: 1; width: 33%; align-self: center; align-items: center;">
+                                <engine:Button text="1" name="LineButton" focusable="false" class="LineButton" style="width: 125px; height: 125px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-image: url(&quot;project://database/Assets/Art/UI/2nd_lane1.png?fileID=-8334569389545536557&amp;guid=2d4c871081dcb2d459c48cf214e61d70&amp;type=3#2nd_lane1_0&quot;);" />
+                            </engine:VisualElement>
+                            <engine:VisualElement name="Three" style="flex-grow: 1; width: 33%; align-items: center; align-self: center;">
+                                <engine:Button text="2" name="LineButton" focusable="false" class="LineButton" style="width: 125px; height: 125px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-image: url(&quot;project://database/Assets/Art/UI/3rd_lane1.png?fileID=-4201816939563954484&amp;guid=7384b26ac56f34b4d8e78fa49962e105&amp;type=3#3rd_lane1_0&quot;);" />
+                            </engine:VisualElement>
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                    <engine:VisualElement name="SpawnButtons" style="flex-grow: 1; flex-direction: row; justify-content: flex-start; flex-wrap: wrap; height: 60%; width: 100%;">
+                        <engine:VisualElement name="Input" class="UpgradesInputs" style="flex-grow: 1; align-items: center; flex-direction: column; height: 200px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; justify-content: center; width: 50%;">
+                            <engine:Label text="Warrior" name="Label" class="UpgradesInputsLabels" />
+                            <engine:Button text="1" name="UnitButton" class="UpgradesInputsButtons UnitButton" style="background-image: url(&quot;project://database/Assets/Art/UI/cyborg-miniature.png?fileID=-1332127607594358402&amp;guid=048afde0c9677a04cb296790cb07d70e&amp;type=3#cyborg-miniature_0&quot;); background-color: rgba(188, 188, 188, 0); color: rgba(27, 27, 27, 0);" />
+                        </engine:VisualElement>
+                        <engine:VisualElement name="Input" class="UpgradesInputs" style="flex-grow: 1; align-items: center; flex-direction: column; height: 200px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; justify-content: center; width: 50%;">
+                            <engine:Label text="Marksman" name="Label" class="UpgradesInputsLabels" style="-unity-text-outline-color: rgba(0, 0, 0, 0);" />
+                            <engine:Button text="2" name="UnitButton" class="UpgradesInputsButtons UnitButton" style="background-image: url(&quot;project://database/Assets/Art/UI/strzelec-miniature.png?fileID=-4737335185715453513&amp;guid=b956f2a9b634dd04f8f0c866de8e5fcb&amp;type=3#strzelec-miniature_0&quot;); background-color: rgba(188, 188, 188, 0); color: rgba(27, 27, 27, 0);" />
+                        </engine:VisualElement>
+                        <engine:VisualElement name="Input" class="UpgradesInputs" style="flex-grow: 1; align-items: center; flex-direction: column; height: 200px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; justify-content: center; width: 50%;">
+                            <engine:Label text="Tank" name="Label" class="UpgradesInputsLabels" />
+                            <engine:Button text="3" name="UnitButton" class="UpgradesInputsButtons UnitButton" style="background-image: url(&quot;project://database/Assets/Art/UI/tank-miniature.png?fileID=-3940964169404460155&amp;guid=be31e5b1f2d63c747b14a4d766575d71&amp;type=3#tank-miniature_0&quot;); background-color: rgba(188, 188, 188, 0); -unity-text-outline-color: rgba(0, 0, 0, 0); color: rgba(27, 27, 27, 0);" />
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="ShowUnits" style="flex-grow: 1; position: absolute; width: 10%; height: 150px; flex-direction: row; align-items: auto; top: auto; justify-content: flex-end; display: flex; right: 0; align-self: auto; bottom: 0;">
+            <engine:Button name="UnitsButton" class="SideButton" style="background-image: url(&quot;project://database/Assets/Art/UI/menu_slide_right.png?fileID=-3239614897565670924&amp;guid=3c7d505c5703cec43a206b168fbc2a76&amp;type=3#menu_slide_right_1&quot;); background-color: rgba(188, 188, 188, 0); transition-property: background-image; transition-duration: 0.5s;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="ShowUpgrades" style="flex-grow: 1; position: absolute; width: 10%; height: auto; flex-direction: row; align-items: flex-end; top: auto; justify-content: space-between; display: flex; left: 0; bottom: 0; visibility: hidden;">
+            <engine:Button name="UpgradesButton" class="SideButton" style="background-image: url(&quot;project://database/Assets/Art/UI/menu_slide_left.png?fileID=-5875221623155544081&amp;guid=83b056a9c1083fa49ab9ace5ab0399ef&amp;type=3#menu_slide_left_1&quot;); background-color: rgba(188, 188, 188, 0);" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

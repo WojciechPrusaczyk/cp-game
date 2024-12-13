@@ -1,0 +1,25 @@
+.player-healthText {}
+
+.enemy-healthBar {}
+
+.player-healthBar {}
+
+.player-HealthBar {}
+
+.gold-amount-text {}
+
+/*
+Tutaj mozna zmienic zawartosci
+*/
+.unity-progress-bar_progress
+{
+    
+}
+
+.unity-progress-bar__progress{
+    border-radius: 10px;
+}
+
+.unity-progress-bar__background{
+    border-radius: 10px;
+}

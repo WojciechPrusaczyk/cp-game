@@ -1,0 +1,29 @@
+.main-menu-button {
+    background-image: url("project://database/Assets/Art/UI/long_button.png?fileID=-8936262488574117078&guid=906889ce74c2ea042b74bc1f6fc98352&type=3#long_button_1");
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+    -unity-text-align: middle-center;
+}
+
+.text-authors {
+}
+
+.main-menu-button:hover {
+    align-items: auto;
+}
+
+.main-menu-button:active {
+    background-image: url("project://database/Assets/Art/UI/long_button.png?fileID=8967884371201062981&guid=906889ce74c2ea042b74bc1f6fc98352&type=3#long_button_0");
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 0;
+    -unity-text-outline-color: rgba(255, 255, 255, 0);
+    -unity-text-align: upper-center;
+    align-items: auto;
+    align-self: auto;
+    text-shadow: 500px 500px 0 rgba(0, 0, 0, 0);
+    letter-spacing: 10px;
+    word-spacing: 0;
+    -unity-paragraph-spacing: 0;
+}

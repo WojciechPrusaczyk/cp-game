@@ -1,0 +1,35 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Level/UI/MainMenu.uss?fileID=7433441132597879392&amp;guid=37807c690b9b3b44291bbc5c18da5945&amp;type=3#MainMenu" />
+    <engine:VisualElement name="Screen" style="flex-grow: 1; flex-direction: row;">
+        <engine:VisualElement name="Left" style="flex-grow: 1; align-items: center; width: 50%;">
+            <engine:VisualElement name="MainMenuScreenLeft" style="flex-grow: 1; height: 50%; width: 50%; align-items: center; justify-content: space-evenly; flex-direction: column; display: flex;">
+                <engine:VisualElement name="Inputs" style="flex-grow: 1; align-self: center; justify-content: space-evenly; align-items: center;">
+                    <engine:Button text="Start" name="StartBTN" class="main-menu-button" style="width: 500px; height: 100px; align-self: auto; align-items: auto; -unity-text-align: middle-center; padding-top: 0; padding-bottom: 14px; background-image: url(&quot;project://database/Assets/Art/UI/long_button.png?fileID=-8936262488574117078&amp;guid=906889ce74c2ea042b74bc1f6fc98352&amp;type=3#long_button_1&quot;);" />
+                    <engine:Button text="Settings" name="SettingsBTN" class="main-menu-button" style="width: 500px; height: 100px; padding-top: 0; padding-bottom: 14px; -unity-text-align: middle-center;" />
+                    <engine:Button text="Authors" name="AuthorsBTN" class="main-menu-button" style="width: 500px; height: 100px; -unity-text-align: middle-center; padding-bottom: 14px; padding-top: 0;" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="SettingsScreenLeft" style="flex-grow: 1; display: none; align-items: center; justify-content: space-between;">
+                <engine:VisualElement name="Inputs" style="flex-grow: 1; align-items: center; justify-content: space-evenly; align-self: center;">
+                    <engine:Button name="AuthorsBTN" enable-rich-text="true" class="main-menu-button" style="width: 500px; height: 75px; visibility: hidden;" />
+                    <engine:Button name="Settings" style="width: 500px; height: 75px; visibility: hidden;" />
+                    <engine:Button text="Back" name="BackBTN1" class="main-menu-button" style="width: 500px; height: 75px; padding-bottom: 15px; padding-top: 0; -unity-text-align: middle-center; -unity-font-style: bold;" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="AuthorsScreenLeft" style="flex-grow: 1; display: none;">
+                <engine:VisualElement name="Inputs" style="flex-grow: 1; align-items: center; justify-content: space-evenly; align-self: center; display: flex;">
+                    <engine:Button name="AuthorsBTN" enable-rich-text="true" style="width: 500px; height: 75px; visibility: hidden;" />
+                    <engine:Button name="Settings" style="width: 500px; height: 75px; visibility: hidden;" />
+                    <engine:Button text="Back" name="BackBTN2" class="main-menu-button" style="width: 500px; height: 75px; padding-bottom: 15px; padding-top: 0; -unity-text-align: middle-center; -unity-font-style: bold;" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="Right" style="flex-grow: 1; width: 50%;">
+            <engine:VisualElement name="AuthorsScreenRight" style="flex-grow: 1; display: none;">
+                <engine:VisualElement name="Text" style="flex-grow: 1; align-self: center; align-items: center; justify-content: center;">
+                    <engine:Label text="Grę stworzyło studio TenByes&#10;Wojciech Prusaczyk - Project Manager / Lead Game Developer&#10;Adrian Lewandowski - Game Developer&#10;Filip Czerwiński - Game Developer&#10;Mikołaj Białek - Game Developer&#10;Jakub Kordella - Sound and Music Designer&#10;Natan Michalak - Graphic Designer&#10;Patrycja Wołowicz - Graphic Designer&#10;Maryia Paulovich - Quality Assurance&#10;Artur Wierzchowski - Lead Designer" name="TextAuthors" class="text-authors" style="-unity-text-align: lower-center; white-space: nowrap; font-size: 20px; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=ef6590c35c0a4f243a23bb6e02bfc35d&amp;type=3#NotInter-Regular&quot;); -unity-font-style: normal; -unity-text-outline-width: 0; -unity-text-outline-color: rgba(255, 21, 21, 0); text-shadow: 0 0 0 rgba(0, 0, 0, 0); letter-spacing: 0; word-spacing: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; background-color: rgba(0, 0, 0, 0); overflow: visible; color: rgb(255, 255, 255);" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
