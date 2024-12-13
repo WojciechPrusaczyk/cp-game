@@ -42,9 +42,9 @@ public class AudioManager : MonoBehaviour
 
     public void SetEffectsClip(int index)
     {
-        if (index >= 0 && index < musicClips.Length)
+        if (index >= 0 && index  < audioClips.Length)
         {
-            effectsSource.clip = musicClips[index];
+            effectsSource.clip = audioClips[index];
             effectsSource.Play();
         }
         else

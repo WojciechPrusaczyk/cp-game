@@ -23,9 +23,8 @@ public class TransitionController : MonoBehaviour
     }
     IEnumerator Transition()
     {
-        
         TransitionAnimator.SetBool("changeAnim", true);
-        yield return new WaitForSeconds(.5f);
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene("EndScreen");
     }
 }

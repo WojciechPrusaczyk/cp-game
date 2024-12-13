@@ -94,6 +94,10 @@ MonoBehaviour:
   allyLayer:
     serializedVersion: 2
     m_Bits: 0
+  castle: {fileID: 0}
+  attackEffectSoundIndex: 9
+  audioManagerObject: {fileID: 0}
+  audioManager: {fileID: 0}
 --- !u!114 &3955686938756318705
 MonoBehaviour:
   m_ObjectHideFlags: 0

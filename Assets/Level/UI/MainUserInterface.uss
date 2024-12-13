@@ -1,25 +1,31 @@
-.player-healthText {}
-
-.enemy-healthBar {}
-
-.player-healthBar {}
-
-.player-HealthBar {}
-
-.gold-amount-text {}
-
-/*
-Tutaj mozna zmienic zawartosci
-*/
-.unity-progress-bar_progress
-{
-    
+.player-healthText {
 }
 
-.unity-progress-bar__progress{
-    border-radius: 10px;
+.enemy-healthBar {
 }
 
-.unity-progress-bar__background{
+.player-healthBar {
+}
+
+.player-HealthBar {
+}
+
+.gold-amount-text {
+}
+
+.unity-progress-bar_progress {
+}
+
+.unity-progress-bar__progress {
     border-radius: 10px;
+    background-image: resource('hp_meter');
+}
+
+.unity-progress-bar__background {
+    border-radius: 10px;
+    background-image: resource('hp_container');
+    -unity-background-scale-mode: stretch-to-fill;
+    background-color: rgba(72, 72, 72, 0);
+    width: auto;
+    height: auto;
 }

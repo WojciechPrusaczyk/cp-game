@@ -3,6 +3,7 @@
     background-color: rgba(0, 0, 0, 0);
     font-size: 20px;
     -unity-text-align: middle-center;
+    color: rgb(242, 233, 233);
 }
 
 .text-authors {
