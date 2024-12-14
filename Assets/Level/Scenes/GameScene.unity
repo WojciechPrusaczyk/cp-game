@@ -1390,6 +1390,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthPoints: 2500
   goldPoints: 250
+  playerMoney: {fileID: 887179264}
+  playerCastle: {fileID: 1774437320}
 --- !u!114 &731303939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2716,6 +2718,17 @@ MonoBehaviour:
   audioManagerObject: {fileID: 1386670259}
   selectedLane: 0
   unitSpawner: {fileID: 731303936}
+--- !u!114 &1774437320 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1574463502636616021, guid: de17211fdf7708f4b9eb8b610996268d, type: 3}
+  m_PrefabInstance: {fileID: 7754403021373879287}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23598406e31a3a2469cc2baafb127e25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1935425454
 GameObject:
   m_ObjectHideFlags: 0
